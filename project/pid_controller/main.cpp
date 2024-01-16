@@ -293,8 +293,8 @@ int main ()
 
           // Compute steer error
           double error_steer;
-
-
+          double dis_min = 10000.0;
+          int close_id = 0
           double steer_output;
 
           /**
