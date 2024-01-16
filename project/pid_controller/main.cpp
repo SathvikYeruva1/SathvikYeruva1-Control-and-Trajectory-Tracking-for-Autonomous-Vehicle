@@ -219,7 +219,7 @@ int main ()
   * (Step 1): create pid (pid_steer) for steer command and initialize values
   **/
   PID pid_steer = PID();
-  pid_steer.Init(0.29, 0.0011,0.71, 1.2, -1.2);
+  pid_steer.Init(0.29, 0.0011,0.4, 1.2, -1.2);
 
   // initialize pid throttle
   /**
